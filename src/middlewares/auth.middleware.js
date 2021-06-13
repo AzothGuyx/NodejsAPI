@@ -22,4 +22,4 @@ module.exports = function(req,res,next){
         req.user = decodedToken.user;
         next();
     });
-}
+};
