@@ -4,7 +4,7 @@
   "description": "A node js api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
@@ -33,6 +33,7 @@
     "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
+    "@types/mockingoose": "^2.13.0",
     "dotenv": "^10.0.0",
     "jest": "^27.0.4",
     "mockingoose": "^2.15.2",
